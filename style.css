@@ -1,0 +1,117 @@
+:root {
+    --bg: #f5f7fb;
+    --border-bottom: #dbdef0;
+    --selected-button: #d6dbf5;
+    --button-border: #4d5b9e;
+    --button-text-color: #293264;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg);
+    font-family: poppins;
+    box-sizing: border-box;
+}
+
+.upper-design {
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    background: #fffad1;
+    right: -3%;
+    top: -20%;
+    border-radius: 69% 31% 48% 52% / 0% 75% 25% 100%;
+}
+
+.lower-design {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background: #deebf8;
+    left: -10%;
+    bottom: -25%;
+    border-radius: 69% 31% 47% 53% / 50% 32% 68% 50%;
+}
+
+
+.init-page-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg);
+    
+}
+
+.init-page-container h1{
+    color: var(--button-text-color);
+    margin: 0;
+    font-size: 40px;
+}
+
+.init-page-container p {
+    color: var(--button-border);
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.init-page-container button {
+    font-size: 20px;
+    padding: 15px 60px;
+    margin-top: 10px;
+    border: none;
+    background: var(--button-border);
+    color: #f5f7fb;
+    border-radius: 9px;
+}
+
+.data-container {
+    width: 70vw;
+    height: 88vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.options-data {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.answer {
+    margin-right: 15px;
+    border-radius: 9px;
+    padding: 3px 14px;
+    font-weight: 100;
+    font-size: 12px;
+    color: var(--button-border);
+}
+
+.quiz-bottom {
+    display: flex;
+    flex-direction: row;
+    color: #4d5b9e;
+    font-weight: 600;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-bottom button {
+    border: none;
+    background: var(--button-border);
+    color: #f5f7fb;
+    border-radius: 10px;
+    padding: 6px 15px;
+    font-size: 18px;
+    height: 50px;
+    margin-left: 10px;
+
+}
